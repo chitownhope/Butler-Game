@@ -1,0 +1,82 @@
+#da-body {
+  /*position: fixed; 
+  top: 0; 
+  left: 0; */
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#telescope {
+	height: 300px;
+    width: 90px;
+	background-color: grey;
+	position: absolute;
+	top: 200px;
+	right: 550px;
+
+}
+
+#brown-bear {
+	height: 95px;
+    width: 75px;
+	background-color: brown;
+	position: absolute;
+	top: 315px;
+	right: 670px;
+}
+
+#red-chair {
+	height: 220px;
+    width: 160px;
+	background-color: red;
+	position: absolute;
+	top: 280px;
+	right: 210px;
+}
+
+#green-phone {
+    height: 40px;
+    width: 50px;
+	background-color: green;
+	position: absolute;
+	top: 280px;
+	right: 400px;
+
+}
+
+#big-trophy {
+    height: 210px;
+    width: 60px;
+	background-color: pink;
+	position: absolute;
+	top: 280px;
+	right: 150px;
+
+}
+
+
+#trunk {
+	height: 220px;
+    width: 280px;
+	/*background-color: yellow;*/
+	position: absolute;
+	top: 370px;
+	right: 290px;
+}
+
+#trunk:hover {
+  /* HOVER STYLES */
+div#trunk-pop-up {
+  display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background: #eeeeee;
+  color: #000000;
+  font-size: 90%;
+}
+
+
+}
