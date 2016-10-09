@@ -1,3 +1,39 @@
+.container {
+	/*width: 50%; dont know how this is working*/
+}
+
+.titled {
+	background-color: beige;
+	color: black;
+	font-family: 'Special Elite', cursive, sans-serif;
+	height: 125px;
+	width: 100%;
+	font-size: 55px;
+	position: absolute;
+}
+
+#landing-page-p{
+	background-color: white
+	color: black;
+	font-family: 'Special Elite', cursive, sans-serif;
+	font-size: 20px;
+	height: 200px;
+	width:400px;
+	border: 10px;
+	border-color: black;
+	position: absolute;
+	top:200px;
+	right:300px;
+
+}
+
+/*#landing-page-background {
+	background-color: black;
+	
+
+}*/
+
+
 #da-body {
   /*position: fixed; 
   top: 0; 
@@ -10,11 +46,12 @@
 
 #telescope {
 	height: 300px;
-    width: 90px;
+    width: 90px; 
 	background-color: grey;
 	position: absolute;
 	top: 200px;
 	right: 550px;
+	z-index: 5;
 
 }
 
@@ -60,23 +97,105 @@
 #trunk {
 	height: 220px;
     width: 280px;
-	/*background-color: yellow;*/
+	background-color: yellow;
 	position: absolute;
 	top: 370px;
 	right: 290px;
+	z-index: 6;
 }
 
 #trunk:hover {
   /* HOVER STYLES */
-div#trunk-pop-up {
-  display: none;
+#trunk-pop-up {
+  display: flex; 
   position: absolute;
-  width: 280px;
+  max-width: 200px;/*width to address different screen width*/
+  height: 200px; /*this sets a geight for the modal...so, it doesnt get cut off*/
   padding: 10px;
   background: #eeeeee;
   color: #000000;
   font-size: 90%;
+  top: 200px;
+  right:300px;
 }
 
 
 }
+
+/*
+
+.modal#modal-trunk {
+
+ for example... 
+  	
+    
+	
+
+}
+.modal.closed {
+ 
+  display: none;
+
+}
+
+
+in our html, we need to format as such...to include a "guts" div for text
+
+
+the CSS FOR THE GUTS
+.modal-guts {
+
+  ** other stuff we already covered ***
+
+  *** cover the modal ****
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  *** spacing as needed ***
+  padding: 20px 50px 20px 20px;
+
+  *** let it scroll ***
+  overflow: auto;
+  
+}*/
+
+.pics {
+	background-color: black;
+}
+
+#butler {
+	display: inline;
+	margin-right: 15px;
+	margin-left: 145px;
+}
+
+#mistress {
+	
+	display: inline;
+	margin-right: 145px;
+	margin-left: 15px;
+}
+
+@media (max-width: 800px) { 
+ body { 
+    display: flex; 
+    /*visibility: visible; */} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

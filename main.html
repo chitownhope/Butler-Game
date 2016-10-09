@@ -3,16 +3,31 @@
 <head>
 
 <meta charset="utf-8">  
-<meta name='viewport' content='width=device-width, initial-scale=1'><title>The Butler Did It....</title>  
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>The Butler Did It....</title>  
 <link rel="stylesheet" type="text/css" href="styles/main.css">   
+<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
 
 </head>  
 
 <body> 
+	<div class="container">
+		<header class="titled">The Butler Did It....</header>
+			<div id="da-body">
+				<img src="styles/attic-scene.jpg" alt="attic scene">
+			</div>
 
-<div id="da-body">
-	<img src="styles/attic-scene.jpg" alt="attic scene">
-</div>
+	 <!-- things that don't scroll -->
+	<div class="modal" id="modal-trunk">
+
+	    <!-- things that scroll -->
+	    <div class="modal-trunk-guts">
+
+		</div>
+		
+
+	</div>
+
  
 <!-- <<div id="container">
     <h1>jQuery Tutorial - Pop-up div on hover</h1>
@@ -31,23 +46,31 @@ HIDDEN / POP-UP DIV -->
 
   </div> --> 
 
- <div id="telescope">im the telescope</div>
- <div id="brown-bear">i am the brown bear</div>
- <div id="red-chair">i am the red chair</div>
- <div id="green-phone">im the phone</div>
- <div id="big-trophy">i am the big trophy</div>
+	 <div id="telescope">im the telescope</div>
+	 <div id="brown-bear">i am the brown bear</div>
+	 <div id="red-chair">i am the red chair</div>
+	 <div id="green-phone">im the phone</div>
+	 <div id="big-trophy">i am the big trophy</div>
 
- <div id="trunk">i am the trunk</div>
- <!-- HIDDEN POP UP DIV -->
-	<div id="trunk-pop-up">
-	  <p>
-	    This div only appears when the trigger link is hovered over.
-	    Otherwise it is hidden from view.
-	  </p>
+	 <div id="trunk">i am the trunk</div>
+	 <!-- HIDDEN POP UP DIV -->
+		<div id="trunk-pop-up">
+		<!--   <p> -->
+		    This div only appears when the trigger link is hovered over.  Otherwise it is hidden from view.
+		 <!--  </p> -->
+		</div>
 	</div>
 
+<!-- pic of suspects below-->
+<div class="pics">
+	<div id="butler"><img src="styles/butler.jpg" alt="butler" style="width:240px;height:240px;"></div>
+	<div id="mistress"><img src="styles/mistress.jpeg" alt="Madame Reina" style="width:240px;height:240px;"></div>
+</div>
 
+<!-- scripts below -->
 <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
 <script type="text/javascript" src="scripts/app.js"></script>  
+
+
 </body>  
 </html>  
