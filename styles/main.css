@@ -25,70 +25,36 @@ container {
   /*min-height: 100%; created a block between scene and suspects*/
 }
 
+/*Landing page Elements and Content Below*/
+
+#landing-page-body {
+	width: 800px;
+	background-color: black;
+}
  #landing-page-p {
  	background-color: white;
  	color: black;
  	font-family: 'Special Elite', cursive, sans-serif;
  	font-size: 20px;
- 	height: 200px;
+ 	height: 300px;
  	width: 400px;
- 	border: 10px;
- 	border-color: black;
  	position: absolute;
- 	top:200px;
- 	right:300px;
- }
-
-  #telescope {
-  	height: 300px;
-    width: 90px;
-    width: 90px; 
-  	background-color: grey;
-  	position: absolute;
-  	top: 200px;
-  	right: 550px;
- 	z-index: 5;
-  
-  }
-
-  #brown-bear {
- 	height: 95px;
-     width: 75px;
- 	background-color: brown;
- 	position: absolute;
- 	top: 315px;
- 	right: 670px;
- }
- 
- #red-chair {
- 	height: 220px;
-     width: 160px;
- 	background-color: red;
- 	position: absolute;
- 	top: 280px;
+ 	top: 200px;
  	right: 210px;
  }
- 
- #green-phone {
-     height: 40px;
-     width: 50px;
- 	background-color: green;
- 	position: absolute;
- 	top: 280px;
- 	right: 400px;
- 
- }
- 
- #big-trophy {
-     height: 210px;
-     width: 60px;
- 	background-color: pink;
- 	position: absolute;
- 	top: 280px;
- 	right: 150px;
- 
- }
 
+#landing-page-button {
+	background-color: beige;
+	width:400px;
+	height: 40px;
+	color: white;
+	top: 300px;
+ 	right: 210px;
+}
+
+
+
+/*TRUNK POP UP STUFF BELOW*/
   #trunk {
   	height: 220px;
     width: 280px;
@@ -106,20 +72,202 @@ container {
     /* HOVER STYLES */
 	 #trunk-pop-up {
 	    display: none; 
-	    position: absolute;
-	    width: 280px;
+	   /* position: absolute;*/
+	    width: 20px;
 	    /*max-width: 200px;width to address different screen width*/
 	    height: 200px; /*this sets a geight for the modal...so, it doesnt get cut off*/
-	    padding: 10px;
+	    /*padding: 10px;*/
 	    background: #eeeeee;
 	    color: #000000;
 	    font-size: 90%;
+	    z-index: 1000;
 	    top: 200px;
-	    right:300px;
+	    right:600px;
 	 }
  
  
  }
+
+ /*TELESCOPE POP UP STUFF BELOW*/
+
+   #telescope {
+  	height: 300px;
+    width: 90px;
+    width: 90px; 
+  	background-color: grey;
+  	position: absolute;
+  	top: 200px;
+  	right: 550px;
+ 	z-index: 5;
+  
+  }
+  
+ #telescope-pop-up {
+  	display: none;
+  }
+  #telescope:hover {
+    /* HOVER STYLES */
+	 #telscope-pop-up {
+	    display: none; 
+	   /* position: absolute;*/
+	    width: 20px;
+	    /*max-width: 200px;width to address different screen width*/
+	    height: 200px; /*this sets a geight for the modal...so, it doesnt get cut off*/
+	    /*padding: 10px;*/
+	    background: #eeeeee;
+	    color: #000000;
+	    font-size: 90%;
+	    z-index: 1000;
+	    top: 200px;
+	    right:600px;
+	 }
+ 
+ 
+ }
+
+ /*BROWN-BEAR POP UP STUFF BELOW*/
+
+  #brown-bear {
+ 	height: 95px;
+     width: 75px;
+ 	background-color: brown;
+ 	position: absolute;
+ 	top: 315px;
+ 	right: 670px;
+ }
+
+#brown-bear-pop-up {
+  	display: none;
+  }
+  #brown-bear:hover {
+    /* HOVER STYLES */
+	 #brown-bear-pop-up {
+	    display: none; 
+	   /* position: absolute;*/
+	    width: 20px;
+	    /*max-width: 200px;width to address different screen width*/
+	    height: 200px; /*this sets a geight for the modal...so, it doesnt get cut off*/
+	    /*padding: 10px;*/
+	    background: #eeeeee;
+	    color: #000000;
+	    font-size: 90%;
+	    z-index: 1000;
+	    top: 200px;
+	    right:600px;
+	 }
+ 
+ 
+ }
+
+ /*RED-CHAIR POP UP STUFF BELOW*/
+
+ #red-chair {
+ 	height: 220px;
+    width: 160px;
+ 	background-color: red;
+ 	position: absolute;
+ 	top: 280px;
+ 	right: 210px;
+ }
+ 
+#red-chair-pop-up {
+  	display: none;
+  }
+  #red-chair:hover {
+    /* HOVER STYLES */
+	 #red-chair-pop-up {
+	    display: none; 
+	   /* position: absolute;*/
+	    width: 20px;
+	    /*max-width: 200px;width to address different screen width*/
+	    height: 200px; /*this sets a geight for the modal...so, it doesnt get cut off*/
+	    /*padding: 10px;*/
+	    background: #eeeeee;
+	    color: #000000;
+	    font-size: 90%;
+	    z-index: 1000;
+	    top: 200px;
+	    right:600px;
+	 }
+ 
+ 
+ }
+
+
+ /*GREEN-PHONE POP UP STUFF BELOW*/
+
+  #green-phone {
+     height: 40px;
+     width: 50px;
+ 	background-color: green;
+ 	position: absolute;
+ 	top: 280px;
+ 	right: 400px;
+ 
+ }
+
+
+#green-phone-pop-up {
+  	display: none;
+  }
+  #green-phone:hover {
+    /* HOVER STYLES */
+	 #green-phone-pop-up {
+	    display: none; 
+	   /* position: absolute;*/
+	    width: 20px;
+	    /*max-width: 200px;width to address different screen width*/
+	    height: 200px; /*this sets a geight for the modal...so, it doesnt get cut off*/
+	    /*padding: 10px;*/
+	    background: #eeeeee;
+	    color: #000000;
+	    font-size: 90%;
+	    z-index: 1000;
+	    top: 200px;
+	    right:600px;
+	 }
+ 
+ 
+ }
+
+
+/*BIG-TROPHY POP UP STUFF BELOW*/
+
+ #big-trophy {
+    height: 210px;
+    width: 60px;
+ 	background-color: pink;
+ 	position: absolute;
+ 	top: 280px;
+ 	right: 150px;
+ 
+ }
+
+
+#big-trophy-pop-up {
+  	display: none;
+  }
+  #big-trophy :hover {
+    /* HOVER STYLES */
+	 #big-trophy-pop-up {
+	    display: none; 
+	   /* position: absolute;*/
+	    width: 20px;
+	    /*max-width: 200px;width to address different screen width*/
+	    height: 200px; /*this sets a geight for the modal...so, it doesnt get cut off*/
+	    /*padding: 10px;*/
+	    background: #eeeeee;
+	    color: #000000;
+	    font-size: 90%;
+	    z-index: 1000;
+	    top: 200px;
+	    right:600px;
+	 }
+ 
+ 
+ }
+
+
 
  .pics {
  	background-color: black;
