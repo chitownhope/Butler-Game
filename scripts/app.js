@@ -39,4 +39,7 @@ $('#big-trophy').hover(function() {
  	 $('#big-trophy-pop-up').hide();
 	});
 
+
+
+
  // });
