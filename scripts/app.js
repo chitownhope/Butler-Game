@@ -40,6 +40,4 @@ $('#big-trophy').hover(function() {
 	});
 
 
-
-
  // });
