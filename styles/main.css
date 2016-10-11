@@ -1,6 +1,5 @@
-container {
-	width: 800px;
- 	/*width: 50%; dont know how this is working*/
+#container {
+	width: 1026px;
  }
  
  .titled {
@@ -28,7 +27,7 @@ container {
 /*Landing page Elements and Content Below*/
 
 #landing-page-body {
-	width: 800px;
+	width: 1027px;
 	background-color: black;
 }
  #landing-page-p {
@@ -36,7 +35,7 @@ container {
  	color: black;
  	font-family: 'Special Elite', cursive, sans-serif;
  	font-size: 20px;
- 	padding-top: 5px;
+ 	padding-top: 15px;
  	padding-left: 5px;
  	height: 300px;
  	width: 400px;
@@ -51,7 +50,7 @@ container {
 	height: 40px;
 	font-family: 'Special Elite', cursive, sans-serif;
 	color: black;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bolder;
 	position: absolute;
 	top: 550px;
@@ -73,6 +72,10 @@ container {
 
 #unsolved-content {
 	align: center;
+	font-family: 'Special Elite', cursive, sans-serif;
+	color: black;
+	font-size: 16px;
+	font-weight: bolder;
 }
 /*img {
 	position: absolute;
@@ -80,15 +83,20 @@ container {
  	/*right: 150px;
 }
 */
+
+.modal {
+	/*height: 40px;*/
+
+}
 /*TRUNK POP UP STUFF BELOW*/
   #trunk {
   	height: 220px;
     width: 360px;
- 	background-color: yellow;
+ 	/*background-color: yellow;*/
   	position: absolute;
   	top: 370px;
   	right: 780px;
- 	z-index: 6;
+ 	/*z-index: 6;*/
   }
   
   #trunk-pop-up {
@@ -106,7 +114,6 @@ container {
 	    background: #eeeeee;
 	    color: #000000;
 	    font-size: 90%;
-	    z-index: 1000;
 	    top: 200px;
 	    right:600px;
 	 }
@@ -118,7 +125,7 @@ container {
    #telescope {
   	height: 270px;
     width: 140px;
-  	background-color: grey;
+  	/*background-color: grey;*/
   	position: absolute;
   	top: 200px;
   	right: 1090px;
@@ -153,8 +160,8 @@ container {
 
   #brown-bear {
  	height: 95px;
-     width: 100px;
- 	background-color: brown;
+    width: 100px;
+ 	/*background-color: brown;*/
  	position: absolute;
  	top: 315px;
  	right: 1270px;
@@ -188,7 +195,7 @@ container {
  #red-chair {
  	height: 220px;
     width: 230px;
- 	background-color: red;
+ 	/*background-color: red;*/
  	position: absolute;
  	top: 280px;
  	right: 680px;
@@ -223,7 +230,7 @@ container {
   #green-phone {
     height: 40px;
     width: 50px;
- 	background-color: green;
+ 	/*background-color: green;*/
  	position: absolute;
  	top: 280px;
  	right: 940px;
@@ -260,7 +267,7 @@ container {
  #big-trophy {
     height: 210px;
     width: 60px;
- 	background-color: pink;
+ 	/*background-color: pink;*/
  	position: absolute;
  	top: 280px;
  	right: 615px;
@@ -297,43 +304,46 @@ container {
  	background-color: black;
  	width:1027px;
  	margin: auto 0;
+
   }
   
  #butler {
  	display: inline;
- 	margin-right: 15px;
- 	margin-left: 130px;
+ 	margin-right: 45px;
+ 	margin-left: 200px;
  }
   
  #mistress {
  	display: inline;
- 	margin-right: 130px;
- 	margin-left: 15px;
+ 	margin-right: 100px;
+ 	margin-left: 45px;
   }
  
-#butler-button-div {
-	width: 50%;
+ #buttons {
+	width: 1027px;
 	background-color: black;
-	display: inline-block;
  }
 #butler-button {
+	margin-left: 230px;
+	font-size: 18px;
+	height: 22px;
+	font-family: 'Special Elite', cursive, sans-serif;
 
-}
-#Reina-button-div {
-	width: 50%;
-	background-color: black;
-	display: inline-block;
 }
 
 #Reina-button {
-
+ 	margin-left: 123px;
+ 	font-size: 20px;
+ 	height: 22px;
+ 	font-family: 'Special Elite', cursive, sans-serif;
 }
 
  /*Media Queries below*/
- @media (max-width: 800px) { 
-  body { 
-     display: flex; }
-     /*visibility: visible; } 
+ @media (max-width: 960px) { 
+
+     /*visibility: visible; */
+ }
+
 
  
 
