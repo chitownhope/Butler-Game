@@ -91,11 +91,11 @@
 
 /*TRUNK POP UP STUFF BELOW*/
   #trunk {
-  	height: 220px;
+  	height: 230px;
     width: 360px;
- 	background-color: yellow;
+ 	/*background-color: yellow;*/
   	position: absolute;
-  	top: 370px;
+  	top: 500px;
   	right: 780px;
  	z-index: 7;
   }
@@ -120,8 +120,6 @@
 	 }
  
  }
-
-
 #modal-trunk {
 	width: 200px;
 	height: 200px;
@@ -130,13 +128,16 @@
 	right: 400px;
 	z-index: 8;
 }
+
+
+
  /*TELESCOPE POP UP STUFF BELOW*/
    #telescope {
   	height: 270px;
     width: 140px;
-  	background-color: grey;
+  	ba/*ckground-color: grey;*/
   	position: absolute;
-  	top: 200px;
+  	top: 340px;
   	right: 1090px;
  	z-index: 6;
   
@@ -170,10 +171,10 @@
   #brown-bear {
  	height: 95px;
     width: 100px;
- 	background-color: brown;
+ 	/*background-color: brown;*/
  	position: absolute;
  	z-index: 5;
- 	top: 315px;
+ 	top: 445px;
  	right: 1270px;
  }
 
@@ -204,10 +205,10 @@
  #red-chair {
  	height: 220px;
     width: 230px;
- 	background-color: red;
+ 	/*background-color: red;*/
  	position: absolute;
  	z-index: 4;
- 	top: 280px;
+ 	top: 410px;
  	right: 680px;
  }
 
@@ -240,10 +241,10 @@
   #green-phone {
     height: 40px;
     width: 50px;
- 	background-color: green;
+ 	/*background-color: green;*/
  	position: absolute;
  	z-index: 3;
- 	top: 280px;
+ 	top: 410px;
  	right: 940px;
  
  }
@@ -277,10 +278,10 @@
  #big-trophy {
     height: 210px;
     width: 60px;
- 	background-color: pink;
+ 	/*background-color: pink;*/
  	position: absolute;
  	z-index: 2;
- 	top: 280px;
+ 	top: 400px;
  	right: 615px;
  
  }
@@ -317,14 +318,14 @@
  	height: 300px;
  	position: absolute;
  	top: 740px;
- 	right: 403px;
+ 	right: 404px;
 
   }
   
  #butler {
  	display: inline;
  	margin-right: 45px;
- 	margin-left: 200px;
+ 	margin-left: 230px;
  	/*right: 500px;*/
  	
  }
@@ -333,19 +334,20 @@
  	display: inline;
  	margin-right: 100px;
  	margin-left: 45px;
-	/*right: 200px;
-	top: 300px;*/
-  }
+	/*right: 350px;
+	top: 500px;*/
+}
+  
  
  #buttons {
 	width: 1027px;
 	background-color: black;
 	position: absolute;
-	top:1080px;
-	right:606px;
+	top:1010px;
+	right: 404px;
  }
 #butler-button {
-	margin-left: 130px;
+	margin-left: 260px;
 	font-size: 18px;
 	height: 22px;
 	font-family: 'Special Elite', cursive, sans-serif;
@@ -353,8 +355,8 @@
 }
 
 #Reina-button {
- 	margin-left: 123px;
- 	font-size: 20px;
+ 	margin-left: 135px;
+ 	font-size: 18px;
  	height: 22px;
  	font-family: 'Special Elite', cursive, sans-serif;
 }
