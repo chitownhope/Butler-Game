@@ -1,5 +1,5 @@
 .container {
-	width: 1026px;
+	width: 1027px;
  }
  
  .titled {
@@ -29,11 +29,11 @@
 
 
 /*Landing page Elements and Content Below*/
-
 #landing-page-body {
 	width: 1027px;
 	background-color: black;
 }
+
  #landing-page-p {
  	background-color: white;
  	color: black;
@@ -112,7 +112,7 @@
 	    /*max-width: 200px;width to address different screen width*/
 	   /* height: 200px; this sets a height for the modal...so, it doesnt get cut off*/
 	    /*padding: 10px;*/
-	  /*  background: #eeeeee;
+	    /*background-color: white;
 	    color: #000000;
 	    font-size: 90%;
 	    top: 200px;
@@ -124,6 +124,7 @@
 	width: 200px;
 	height: 200px;
 	position: absolute;
+	color: white;
 	top:400px;
 	right: 400px;
 	z-index: 8;
@@ -135,7 +136,7 @@
    #telescope {
   	height: 270px;
     width: 140px;
-  	ba/*ckground-color: grey;*/
+  	/*background-color: grey;*/
   	position: absolute;
   	top: 340px;
   	right: 1090px;
@@ -148,7 +149,7 @@
   }
   #telescope:hover {
     /* HOVER STYLES */
-	 #telscope-pop-up {
+	 #telescope-pop-up {
 	    display: none; 
 	   /* position: absolute;*/
 	   /* width: 20px;*/
@@ -162,9 +163,17 @@
 	    /*top: 200px;
 	    right:600px;*/
 	 }
- 
- 
  }
+
+ #modal-telescope {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	color: white;
+	top:400px;
+	right: 400px;
+	z-index: 8;
+}
 
  /*BROWN-BEAR POP UP STUFF BELOW*/
 
@@ -196,9 +205,17 @@
 	    top: 200px;
 	    right:600px;*/
 	 }
- 
- 
  }
+
+ #modal-brown-bear {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	color: white;
+	top:400px;
+	right: 400px;
+	z-index: 8;
+}
 
  /*RED-CHAIR POP UP STUFF BELOW*/
 
@@ -231,10 +248,18 @@
 	    top: 200px;
 	    right:600px;*/
 	 }
- 
- 
  }
 
+
+#modal-red-chair {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	color: white;
+	top:400px;
+	right: 400px;
+	z-index: 8;
+}
 
  /*GREEN-PHONE POP UP STUFF BELOW*/
 
@@ -248,7 +273,6 @@
  	right: 940px;
  
  }
-
 
 #green-phone-pop-up {
   	display: none;
@@ -268,9 +292,17 @@
 	    top: 200px;
 	    right:600px;*/
 	 }
- 
- 
  }
+
+#modal-green-phone {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	color: white;
+	top:400px;
+	right: 400px;
+	z-index: 8;
+}
 
 
 /*BIG-TROPHY POP UP STUFF BELOW*/
@@ -306,10 +338,19 @@
 	    top: 200px;
 	    right:600px;*/
 	 }
- 
- 
  }
 
+#modal-big-trophy {
+	/*background-color: white;only creates a white square*/
+	/*opacity: .8;*/
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	color: white;
+	top:400px;
+	right: 400px;
+	z-index: 8;
+}
 
 /*Butler and Madame Reina content below*/
  .pics {
