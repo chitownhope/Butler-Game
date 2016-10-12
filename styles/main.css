@@ -64,7 +64,7 @@ body {
  	right: 533px;
 }
 
-/*Conclusion page stuff*/
+/*"Solved" Conclusion page stuff*/
 #solved {
 	height: 90px;
 	width: 800px;
@@ -72,21 +72,19 @@ body {
 	color: white;
 	font-size: 20px;
 	font-weight: bolder;
-	padding-top: 100px;
+	padding-top: 30px;
 	/*margin-bottom: 80px;*/
 	margin-left: 370px;
 
 }
 
-/*#solved img  {
-	margin-left: 170px;
-}*/
 
 #she-did-it {
 	margin-top: 60px;
 	width: 680px;
 }
 
+/*Below is unsolved content*/
 #unsolved-content {
 	align: center;
 	font-family: 'Special Elite', cursive, sans-serif;
@@ -101,6 +99,17 @@ body {
 #not-solved img {
 	margin-top: 150px;
 	margin-left: 350px;
+}
+
+#restart-game {
+	width: 150px;
+	height: 30px;
+	font-family: 'Special Elite', cursive, sans-serif;
+	position: absolute;
+	top:600px;
+	right: 150px;
+
+
 }
 
 

@@ -45,4 +45,25 @@ $('#sword').hover(function() {
    $('#sword-pop-up').hide();
   });
 
- // });
+// if player wants to start game over, press re-start button
+//   re-start button should direct back to landing page which is the starting point
+
+$('#restart-game').click(function() {
+    window.location = 'landing-page.html';
+    return false;
+});
+
+
+// });
+
+
+
+
+
+
+
+
+
+
+
+
