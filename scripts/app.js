@@ -39,5 +39,10 @@ $('#big-trophy').hover(function() {
  	 $('#big-trophy-pop-up').hide();
 	});
 
+$('#sword').hover(function() {
+  $('#sword-pop-up').show();
+  }, function() {
+   $('#sword-pop-up').hide();
+  });
 
  // });
