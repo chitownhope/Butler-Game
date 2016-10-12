@@ -69,20 +69,38 @@ body {
 	height: 90px;
 	width: 800px;
 	font-family: 'Special Elite', cursive, sans-serif;
-	color: black;
-	font-size: 16px;
+	color: white;
+	font-size: 20px;
 	font-weight: bolder;
 	padding-top: 100px;
-	margin-bottom: 50px;
+	/*margin-bottom: 80px;*/
+	margin-left: 370px;
 
+}
+
+/*#solved img  {
+	margin-left: 170px;
+}*/
+
+#she-did-it {
+	margin-top: 60px;
+	width: 680px;
 }
 
 #unsolved-content {
 	align: center;
 	font-family: 'Special Elite', cursive, sans-serif;
-	color: black;
-	font-size: 16px;
+	color: white;
+	font-size: 20px;
 	font-weight: bolder;
+	margin-left: 400px;
+	margin-top: 60px;
+
+}
+
+#not-solved img {
+	margin-top: 150px;
+	margin-left: 350px;
 }
 
 
