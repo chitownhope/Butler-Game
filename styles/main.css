@@ -150,17 +150,6 @@ body {
     /* HOVER STYLES */
 	 #telescope-pop-up {
 	    display: none; 
-	   /* position: absolute;*/
-	   /* width: 20px;*/
-	    /*max-width: 200px;width to address different screen width*/
-	   /* height: 200px; *//*this sets a geight for the modal...so, it doesnt get cut off*/
-	    /*padding: 10px;*/
-	   /* background: #eeeeee;
-	    color: #000000;
-	    font-size: 90%;
-	    z-index: 1000;*/
-	    /*top: 200px;
-	    right:600px;*/
 	 }
  }
 
@@ -195,16 +184,6 @@ body {
     /* HOVER STYLES */
 	 #brown-bear-pop-up {
 	    display: none; 
-	   /* position: absolute;*/
-	   /* width: 20px; this doesnt seem to be working*/
-	    /*max-width: 200px;width to address different screen width*/
-	    /*height: 200px;*/ /*this sets a geight for the modal...so, it doesnt get cut off*/
-	    /*padding: 10px;*/
-	   /* background: #eeeeee; this doesnt seem to be working*/
-	    /*color: #000000;this doesnt seem to be working*/
-	    /*font-size: 90%
-	    top: 200px;
-	    right:600px;*/
 	 }
  }
 
@@ -239,17 +218,6 @@ body {
     /* HOVER STYLES */
 	 #red-chair-pop-up {
 	    display: none; 
-	   /* position: absolute;*/
-	    /*width: 20px;*/
-	    /*max-width: 200px;width to address different screen width*/
-	    /*height: 200px; this sets a geight for the modal...so, it doesnt get cut off*/
-	    /*padding: 10px;*/
-	   /* background: #eeeeee;
-	    color: #000000;
-	    font-size: 90%;
-	    z-index: 1000;
-	    top: 200px;
-	    right:600px;*/
 	 }
  }
 
@@ -286,16 +254,6 @@ body {
     /* HOVER STYLES */
 	 #green-phone-pop-up {
 	    display: none; 
-	   /* position: absolute;*/
-	    /*width: 20px;*/
-	    /*max-width: 200px;width to address different screen width*/
-	    /*height: 200px; this sets a geight for the modal...so, it doesnt get cut off*/
-	    /*padding: 10px;*/
-	   /* background: #eeeeee;
-	    color: #000000;
-	    font-size: 90%;
-	    top: 200px;
-	    right:600px;*/
 	 }
  }
 
@@ -313,7 +271,41 @@ body {
 
 
 /*BIG-TROPHY POP UP STUFF BELOW*/
+#big-trophy {
+    height: 170px;
+    width: 70px;
+ 	/*background-color: green;*/
+ 	position: absolute;
+ 	z-index: 5;
+ 	top: 430px;
+ 	right: 615px;
+ 
+ }
 
+#big-trophy-pop-up {
+  	display: none;
+  }
+  #big-trophy:hover {
+    /* HOVER STYLES */
+	 #green-phone-pop-up {
+	    display: none; 
+	 }
+ }
+
+#modal-big-trophy{
+	width: 300px;
+	height: 450px;
+	position: absolute;
+	color: white;
+	font-family: 'Special Elite', cursive, sans-serif;
+	font-size: 20px;
+	top:200px;
+	right: 70px;
+	z-index: 8;
+}
+
+
+/*Sword Pop up stuff below*/
  #sword {
     height: 20px;
     width: 245px;
