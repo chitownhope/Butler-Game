@@ -1,7 +1,6 @@
 // $(document).ready(function() {
  
  
- 
  // pop up for each clue element below
 $('#trunk').hover(function() {
     $('#trunk-pop-up').show();
@@ -54,10 +53,23 @@ $('#restart-game').click(function() {
 });
 
 
-// });
+window.onload = function(){
+  var timesUp = document.getElementById('timer'); 
+
+     var sec = 25;
+     var timer = setInterval(function(){
+       sec--;
+       timesUp.innerHTML = sec;
+       
+       if(sec == 0){
+          window.location = 'not-solved.html';
+          clearInterval(timer)
+         }
+       }, 1000);
+}
 
 
-
+// }
 
 
 
