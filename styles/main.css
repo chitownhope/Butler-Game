@@ -372,19 +372,8 @@ body {
  	/*margin-right: 100px;
  	margin-left: 45px;*/
  }
-  
- 
- /*#buttons {
-	width: 25%;
-	display: inline;
-	height: 200px;
-	background-color: black;
-	margin-top: 5px;
-	margin-right: 10px;
-	
- }*/
 
-#butler-button {
+	#butler-button {
 	margin-bottom: 20px;
 	font-size: 18px;
 	height: 22px;
@@ -393,7 +382,7 @@ body {
 
 }
 
-#Reina-button {
+	#Reina-button {
  	font-size: 18px;
  	height: 22px;
  	font-family: 'Special Elite', cursive, sans-serif;
@@ -404,15 +393,14 @@ body {
  @media (max-width: 1080px) { 
 
  	.titled {
-	
-    /*visibility: visible; */
-    height: 125px;
+    height: 15%;
  	}
 
 	#landing-page-p {
  	padding-top: 15px;
  	height: 400px;
  	width: 40%;
+ 	margin-left: 300px;
  	
  }
 
@@ -424,14 +412,46 @@ body {
 	color: black;
 	font-size: 20px;
 	font-weight: bolder;
-	margin-left: 452px;
+	margin-left: 300px;
 }
 
 	#da-body img {	
 	margin-top: 5px;
-	width: 80%;
+    width: 70%;
+    position: absolute;
+    right: 315px;
+    top: 140px;
+	}
+
+	#butler img {
+	margin-top: 5px;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    right: 40px;
+    top: 180px;
+
+	}
+
+	a #butler-button {
 	position: absolute;
-	right: 207px;
+    right: 40px;
+    top: 410px;
+	}
+
+	#mistress img {
+	margin-top: 5px;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    right: 40px;
+    top: 480px;
+	}
+
+	a #mistress {
+	position: absolute;
+    right: 40px;
+    top: 910px;
 	}
 
 /*positioning the modals below*/
@@ -441,9 +461,10 @@ body {
 	#modal-brown-bear,
 	#modal-telescope,
 	#modal-trunk { 
-		width: 170px;
+		width: 60%;
 		position: absolute;
-		right: 20px;
+		top: 600px;
+		right: 420px;
 	}
 
 /*positioning the elements that have hovered attached*/
@@ -456,51 +477,52 @@ body {
 	}
 
 	#telescope {
-		width: 110px;
+	    width: 110px;
 	    height: 200px;
 	    position: absolute;
-	    right: 790px;
-	    top: 335px;
+	    right: 820px;
+	    top: 290px;
 	}
 
 	#big-trophy {
 		width: 55px;
 	    height: 150px;
 	    position: absolute;
-	    right: 380px;
-	    top: 415px;
+	    right: 460px;
+	    top: 360px;
 	}
 
 	#sword {
-		width: 195px;
+	    width: 185px;
 	    height: 16px;
 	    position: absolute;
-	    right: 590px;
-	    top: 292px
+	    right: 630px;
+	    top: 258px;
 	}
 
     #green-phone {
-    	width: 45px;
+	    width: 45px;
 	    height: 20px;
 	    position: absolute;
-	    right: 654px;
-	    top: 410
+	    right: 702px;
+	    top: 355px;
     }
 
     #red-chair {
-    	width: 170px;
-    	height:190px;
-    	position: absolute;
-    	right: 440px;
-    	top: 395px;
+	    width: 160px;
+	    height: 170px;
+	    position: absolute;
+	    right: 520px;
+	    top: 345px;
     }
 
     #brown-bear {
-    	width: 70px;
+	    width: 70px;
 	    height: 80px;
 	    position: absolute;
-	    right: 943px;
-	    top: 425px;
+	    right: 958px;
+	    top: 370px;
+
     }
 
 }
