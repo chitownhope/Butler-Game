@@ -9,11 +9,11 @@
  	height: 100px;
  	width: 100%;
  	font-size: 25px;
- 	position: absolute;
  	padding-top: 30px;
- 	padding-bottom:-25px;
+ 	padding-bottom:-55px;
+ 	padding-left: 5px;
  	display: block;
- 	position: absolute; /*not working*/
+ 
 
  }
  
@@ -24,16 +24,15 @@ body {
 
 #da-body img {
 	position: absolute;
-	top: 140px;
+	top: 163px;
  	right: 405px;
  	z-index: 1;
- 	/*opacity: .7;*/
 }
 
 
 /*Landing page Elements and Content Below*/
 #landing-page-body {
-	width: 1027px;
+	width: 100%;
 	background-color: black;
 }
 
@@ -46,9 +45,8 @@ body {
  	padding-left: 5px;
  	height: 400px;
  	width: 500px;
- 	position: absolute;
- 	top: 180px;
- 	right: 480px;
+ 	margin-top: 80px;
+ 	margin-left: 450px;
  }
 
 #landing-page-button {
@@ -59,9 +57,7 @@ body {
 	color: black;
 	font-size: 20px;
 	font-weight: bolder;
-	position: absolute;
-	top: 640px;
- 	right: 533px;
+	margin-left: 505px;
 }
 
 /*"Solved" Conclusion page stuff*/
@@ -73,7 +69,6 @@ body {
 	font-size: 20px;
 	font-weight: bolder;
 	padding-top: 30px;
-	/*margin-bottom: 80px;*/
 	margin-left: 370px;
 
 }
@@ -93,7 +88,6 @@ body {
 	font-weight: bolder;
 	margin-left: 400px;
 	margin-top: 60px;
-
 }
 
 #not-solved img {
@@ -108,8 +102,6 @@ body {
 	position: absolute;
 	top:600px;
 	right: 150px;
-
-
 }
 
 
@@ -127,23 +119,14 @@ body {
   #trunk-pop-up {
   	display: none;
   }
+  
   #trunk:hover {
-     HOVER STYLES 
+     /*HOVER STYLES */
 	 #trunk-pop-up {
 	    display: none; 
-	   /* position: absolute;
-	    width: 20px;
-	    /*max-width: 200px;width to address different screen width*/
-	   /* height: 200px; this sets a height for the modal...so, it doesnt get cut off*/
-	    /*padding: 10px;*/
-	    /*background-color: white;
-	    color: #000000;
-	    font-size: 90%;
-	    top: 200px;
-	    right:600px;*/
 	 }
- 
  }
+
 #modal-trunk {
 	width: 300px;
 	height: 450px;
@@ -187,7 +170,7 @@ body {
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
 	font-size: 20px;
-	top:200px;
+	top: 200px;
 	right: 70px;
 	z-index: 8;
 }
@@ -221,7 +204,7 @@ body {
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
 	font-size: 20px;
-	top:200px;
+	top: 200px;
 	right: 70px;
 	z-index: 8;
 }
@@ -256,7 +239,7 @@ body {
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
 	font-size: 20px;
-	top:200px;
+	top: 200px;
 	right: 70px;
 	z-index: 8;
 }
@@ -291,7 +274,7 @@ body {
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
 	font-size: 20px;
-	top:200px;
+	top: 200px;
 	right: 70px;
 	z-index: 8;
 }
@@ -326,7 +309,7 @@ body {
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
 	font-size: 20px;
-	top:200px;
+	top: 200px;
 	right: 70px;
 	z-index: 8;
 }
@@ -341,7 +324,6 @@ body {
  	z-index: 2;
  	top: 287px;
  	right: 865px;
- 
  }
 
 
@@ -352,17 +334,6 @@ body {
     /* HOVER STYLES */
 	 #sword-pop-up {
 	    display: none; 
-	   /* position: absolute;*/
-	    /*width: 20px;*/
-	    /*max-width: 200px;width to address different screen width*/
-	    /*height: 200px; this sets a geight for the modal...so, it doesnt get cut off*/
-	    /*padding: 10px;*/
-	    /*background: #eeeeee;
-	    color: #000000;
-	    font-size: 90%;
-	    z-index: 1000;
-	    top: 200px;
-	    right:600px;*/
 	 }
  }
 
@@ -382,10 +353,11 @@ body {
  .pics {
  	background-color: black;
  	width:1027px;
- 	height: 300px;
- 	position: absolute;
+ 	height: 250px;
+ 	margin-top: 600px;
+ 	/*position: absolute;
  	top: 740px;
- 	right: 404px;
+ 	right: 404px;*/
 
   }
   
@@ -393,7 +365,6 @@ body {
  	display: inline;
  	margin-right: 45px;
  	margin-left: 230px;
- 	/*right: 500px;*/
  	
  }
   
@@ -401,17 +372,15 @@ body {
  	display: inline;
  	margin-right: 100px;
  	margin-left: 45px;
-	/*right: 350px;
-	top: 500px;*/
-}
+ }
   
  
  #buttons {
 	width: 1027px;
 	background-color: black;
-	position: absolute;
-	top:1010px;
-	right: 404px;
+	/*margin-top: 5px;*/
+	margin-right: 100px;
+	
  }
 #butler-button {
 	margin-left: 260px;
@@ -429,14 +398,41 @@ body {
 }
 
  /*Media Queries below*/
- @media (max-width: 1027px) { 
+ @media (min-width: 1080px) { 
 
-     /*/*visibility: visible; */*/
+ 	.titled {
+	
+    visibility: visible; 
+    height: 125px;
+ 	}
+
+#landing-page-p {
+ 	padding-top: 15px;
+ 	height: 400px;
+ 	width: 40%;
+ 	
  }
 
+#landing-page-button {
+	background-color: beige;
+	width: 40%;
+	height: 40px;
+	font-family: 'Special Elite', cursive, sans-serif;
+	color: black;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-left: 452px;
+}
 
+#da-body img {
+	/*position: absolute;
+	top: 163px;
+ 	right: 405px;
+ 	z-index: 1;
+}*/
+margin-top: 5px;
+}
  
-
 
 
 

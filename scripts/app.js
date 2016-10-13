@@ -53,20 +53,20 @@ $('#restart-game').click(function() {
 });
 
 
-window.onload = function(){
-  var timesUp = document.getElementById('timer'); 
+// window.onload = function(){
+//   var timesUp = document.getElementById('timer'); 
 
-     var sec = 25;
-     var timer = setInterval(function(){
-       sec--;
-       timesUp.innerHTML = sec;
+//      var sec = 30;
+//      var timer = setInterval(function(){
+//        sec--;
+//        timesUp.innerHTML = "You've got " + sec + " seconds left!";
        
-       if(sec == 0){
-          window.location = 'not-solved.html';
-          clearInterval(timer)
-         }
-       }, 1000);
-}
+//        if(sec == 0){
+//           window.location = 'not-solved.html';
+//           clearInterval(timer)
+//          }
+//        }, 1000);
+// }
 
 
 // }
