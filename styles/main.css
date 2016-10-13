@@ -24,8 +24,8 @@ body {
 
 #da-body img {
 	position: absolute;
-	top: 163px;
- 	right: 405px;
+	top: 150px;
+ 	right: 400px;
  	z-index: 1;
 }
 
@@ -147,7 +147,7 @@ body {
     width: 140px;
   	/*background-color: grey;*/
   	position: absolute;
-  	top: 340px;
+  	top: 368px;
   	right: 1090px;
  	z-index: 6;
   
@@ -183,7 +183,7 @@ body {
  	/*background-color: brown;*/
  	position: absolute;
  	z-index: 5;
- 	top: 445px;
+ 	top: 465px;
  	right: 1270px;
  }
 
@@ -217,7 +217,7 @@ body {
  	/*background-color: red;*/
  	position: absolute;
  	z-index: 4;
- 	top: 410px;
+ 	top: 435px;
  	right: 680px;
  }
 
@@ -247,12 +247,12 @@ body {
  /*GREEN-PHONE POP UP STUFF BELOW*/
 
   #green-phone {
-    height: 40px;
-    width: 50px;
+    height: 25px;
+    width: 55px;
  	/*background-color: green;*/
  	position: absolute;
  	z-index: 3;
- 	top: 410px;
+ 	top: 440px;
  	right: 940px;
  
  }
@@ -287,7 +287,7 @@ body {
  	/*background-color: green;*/
  	position: absolute;
  	z-index: 5;
- 	top: 430px;
+ 	top: 450px;
  	right: 615px;
  
  }
@@ -322,7 +322,7 @@ body {
  	/*background-color: pink;*/
  	position: absolute;
  	z-index: 2;
- 	top: 287px;
+ 	top: 310px;
  	right: 865px;
  }
 
@@ -352,68 +352,75 @@ body {
 /*Butler and Madame Reina content below*/
  .pics {
  	background-color: black;
- 	width:1027px;
- 	height: 250px;
- 	margin-top: 600px;
+ 	width: 250px;
+ 	height: 1025px;
+ 	float: right;
+ 	margin-right: 70px;
+ 	margin-top: 15px;
  	/*position: absolute;
  	top: 740px;
  	right: 404px;*/
 
   }
   
- #butler {
- 	display: inline;
- 	margin-right: 45px;
- 	margin-left: 230px;
- 	
+ 
+ 	#butler {
+ 	margin-bottom: 7px;
+ 	/*margin-right: 45px;
+ 	margin-left: 230px;*/
  }
   
-#mistress {
- 	display: inline;
- 	margin-right: 100px;
- 	margin-left: 45px;
+	#mistress {
+ 	margin-top: 20px;
+ 	margin-bottom: 7px;
+ 	/*margin-right: 100px;
+ 	margin-left: 45px;*/
  }
   
  
- #buttons {
-	width: 1027px;
+ /*#buttons {
+	width: 25%;
+	display: inline;
+	height: 200px;
 	background-color: black;
-	/*margin-top: 5px;*/
-	margin-right: 100px;
+	margin-top: 5px;
+	margin-right: 10px;
 	
- }
+ }*/
+
 #butler-button {
-	margin-left: 260px;
+	margin-bottom: 20px;
 	font-size: 18px;
 	height: 22px;
 	font-family: 'Special Elite', cursive, sans-serif;
+	width: 240px;
 
 }
 
 #Reina-button {
- 	margin-left: 135px;
  	font-size: 18px;
  	height: 22px;
  	font-family: 'Special Elite', cursive, sans-serif;
+ 	width: 240px;
 }
 
  /*Media Queries below*/
- @media (min-width: 1080px) { 
+ @media (max-width: 1080px) { 
 
  	.titled {
 	
-    visibility: visible; 
+    /*visibility: visible; */
     height: 125px;
  	}
 
-#landing-page-p {
+	#landing-page-p {
  	padding-top: 15px;
  	height: 400px;
  	width: 40%;
  	
  }
 
-#landing-page-button {
+	#landing-page-button {
 	background-color: beige;
 	width: 40%;
 	height: 40px;
@@ -424,13 +431,82 @@ body {
 	margin-left: 452px;
 }
 
-#da-body img {
-	/*position: absolute;
-	top: 163px;
- 	right: 405px;
- 	z-index: 1;
-}*/
-margin-top: 5px;
+	#da-body img {	
+	margin-top: 5px;
+	width: 80%;
+	position: absolute;
+	right: 207px;
+	}
+
+/*positioning the modals below*/
+	#modal-sword,#modal-big-trophy,
+	#modal-green-phone, 
+	#modal-red-chair,
+	#modal-brown-bear,
+	#modal-telescope,
+	#modal-trunk { 
+		width: 170px;
+		position: absolute;
+		right: 20px;
+	}
+
+/*positioning the elements that have hovered attached*/
+	#trunk {
+		width: 310px;
+	    height: 200px;
+	    position: absolute;
+	    right: 520px;
+	    top: 470px;
+	}
+
+	#telescope {
+		width: 110px;
+	    height: 200px;
+	    position: absolute;
+	    right: 790px;
+	    top: 335px;
+	}
+
+	#big-trophy {
+		width: 55px;
+	    height: 150px;
+	    position: absolute;
+	    right: 380px;
+	    top: 415px;
+	}
+
+	#sword {
+		width: 195px;
+	    height: 16px;
+	    position: absolute;
+	    right: 590px;
+	    top: 292px
+	}
+
+    #green-phone {
+    	width: 45px;
+	    height: 20px;
+	    position: absolute;
+	    right: 654px;
+	    top: 410
+    }
+
+    #red-chair {
+    	width: 170px;
+    	height:190px;
+    	position: absolute;
+    	right: 440px;
+    	top: 395px;
+    }
+
+    #brown-bear {
+    	width: 70px;
+	    height: 80px;
+	    position: absolute;
+	    right: 943px;
+	    top: 425px;
+    }
+
 }
  
 
