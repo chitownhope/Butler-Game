@@ -6,7 +6,7 @@
  	background-color: beige;
  	color: black;
  	font-family: 'Special Elite', cursive, sans-serif;
- 	height: 100px;
+ 	height: 15%;
  	width: 100%;
  	font-size: 25px;
  	padding-top: 30px;
@@ -129,7 +129,7 @@ body {
 
 #modal-trunk {
 	width: 925px;
-	height: 450px;
+	height: 100px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
@@ -165,7 +165,7 @@ body {
 
  #modal-telescope {
 	width: 950px;
-	height: 450px;
+	height: 100px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
@@ -199,7 +199,7 @@ body {
 
  #modal-brown-bear {
 	width: 800px;
-	height: 450px;
+	height: 100px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
@@ -234,7 +234,7 @@ body {
 
 #modal-red-chair {
 	width: 900px;
-	height: 450px;
+	height: 100px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
@@ -269,7 +269,7 @@ body {
 
 #modal-green-phone {
 	width: 800px;
-	height: 450px;
+	height: 100px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
@@ -339,7 +339,7 @@ body {
 
 #modal-sword {
 	width: 600px;
-	height: 450px;
+	height: 100px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
@@ -353,7 +353,7 @@ body {
  .pics {
  	background-color: black;
  	width: 250px;
- 	height: 1025px;
+ 	height: 570px;
  	float: right;
  	margin-right: 70px;
  	margin-top: 45px;
