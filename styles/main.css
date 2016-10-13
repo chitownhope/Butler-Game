@@ -128,14 +128,14 @@ body {
  }
 
 #modal-trunk {
-	width: 300px;
+	width: 925px;
 	height: 450px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
 	font-size: 20px;
-	top: 200px;
-	right: 70px;
+	top:750px;
+	right: 490px;
 	z-index: 8;
 }
 
@@ -164,14 +164,14 @@ body {
  }
 
  #modal-telescope {
-	width: 300px;
+	width: 950px;
 	height: 450px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
 	font-size: 20px;
-	top: 200px;
-	right: 70px;
+	top: 740px;
+	right: 470px;
 	z-index: 8;
 }
 
@@ -198,14 +198,14 @@ body {
  }
 
  #modal-brown-bear {
-	width: 300px;
+	width: 800px;
 	height: 450px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
 	font-size: 20px;
-	top: 200px;
-	right: 70px;
+	top:750px;
+	right: 620px;
 	z-index: 8;
 }
 
@@ -233,14 +233,14 @@ body {
 
 
 #modal-red-chair {
-	width: 300px;
+	width: 900px;
 	height: 450px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
 	font-size: 20px;
-	top: 200px;
-	right: 70px;
+	top:750px;
+	right: 520px;
 	z-index: 8;
 }
 
@@ -268,14 +268,14 @@ body {
  }
 
 #modal-green-phone {
-	width: 300px;
+	width: 800px;
 	height: 450px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
 	font-size: 20px;
-	top: 200px;
-	right: 70px;
+	top:750px;
+	right: 620px;
 	z-index: 8;
 }
 
@@ -303,14 +303,14 @@ body {
  }
 
 #modal-big-trophy{
-	width: 300px;
-	height: 450px;
+	width: 1100px;
+	height: 100px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
 	font-size: 20px;
-	top: 200px;
-	right: 70px;
+	top:750px;
+	right: 320px;
 	z-index: 8;
 }
 
@@ -338,14 +338,14 @@ body {
  }
 
 #modal-sword {
-	width: 300px;
+	width: 600px;
 	height: 450px;
 	position: absolute;
 	color: white;
 	font-family: 'Special Elite', cursive, sans-serif;
 	font-size: 20px;
-	top:200px;
-	right: 70px;
+	top:750px;
+	right: 810px;
 	z-index: 8;
 }
 
@@ -356,11 +356,7 @@ body {
  	height: 1025px;
  	float: right;
  	margin-right: 70px;
- 	margin-top: 15px;
- 	/*position: absolute;
- 	top: 740px;
- 	right: 404px;*/
-
+ 	margin-top: 45px;
   }
   
  
@@ -371,7 +367,7 @@ body {
  }
   
 	#mistress {
- 	margin-top: 20px;
+ 	margin-top: 10px;
  	margin-bottom: 7px;
  	/*margin-right: 100px;
  	margin-left: 45px;*/
