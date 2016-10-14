@@ -1,7 +1,4 @@
-// $(document).ready(function() {
- 
- 
- // pop up for each clue element below
+// pop up for each clue element below
 $('#trunk').hover(function() {
     $('#trunk-pop-up').show();
    }, function() {
@@ -53,6 +50,8 @@ $('#restart-game').click(function() {
 });
 
 
+// TIMER
+
 window.onload = function(){
   var timesUp = document.getElementById('timer'); 
 
@@ -69,7 +68,7 @@ window.onload = function(){
 }
 
 
-// }
+
 
 
 
